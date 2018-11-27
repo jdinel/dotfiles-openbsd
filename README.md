@@ -1,3 +1,3 @@
-# dotfiles-openbsd
+## A collection of my usual config files for OpenBSD environments.
 
-My various dotfiles for the OpenBSD operating system.
+Use at will.
