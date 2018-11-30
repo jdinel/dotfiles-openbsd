@@ -9,3 +9,4 @@ export HISTFILE=$HOME/.ksh_history
 export HISTSIZE=5000
 export ENV=$HOME/.kshrc
 export LC_CTYPE="en_US.UTF-8"
+export LANG="en_US.UTF-8"
