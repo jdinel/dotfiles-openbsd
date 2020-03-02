@@ -12,3 +12,7 @@ alias ls="$LS -FpHh"
 alias ll='ls -l'
 alias la='ls -lA'
 alias h='history'
+alias viewcert='openssl x509 -noout -text -in'
+alias viewcrl='openssl crl -inform DER -text -noout -in'
+alias viewcsr='openssl req -noout -text -in'
+alias viewp12='openssl pkcs12 -info -nodes -in'
