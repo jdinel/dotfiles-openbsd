@@ -1,4 +1,6 @@
-export PS1="$(echo -e "\033[34m$USER\033[37m@\033[34mopenbsd:\033[33m\w\033[37m $\033[00m") "
+HOSTNAME=${HOSTNAME:-$(uname -n)}
+HOST=${HOSTNAME%%.*}
+export PS1="$(echo -e "\033[34m$USER\033[37m@\033[34m${HOST}:\033[33m\w\033[37m $\033[00m") "
 export PAGER=less
 export CLICOLOR=1
 
