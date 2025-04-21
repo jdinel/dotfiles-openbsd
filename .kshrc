@@ -10,6 +10,7 @@ else
   LS='ls'
 fi
 
+alias list-internet-sockets="fstat | grep internet | egrep -v '<|>'"
 alias ls="$LS -FpHh"
 alias ll='ls -l'
 alias la='ls -lA'
